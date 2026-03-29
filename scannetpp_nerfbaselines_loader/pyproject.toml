@@ -1,0 +1,18 @@
+[project]
+name = "scannetpp-nerfbaselines-loader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Ivan Desiatov", email = "desiaiva@fel.cvut.cz" }]
+requires-python = ">=3.9"
+
+dependencies = [
+    "nerfbaselines @ git+https://github.com/deivse/nerfbaselines.git",
+    "numpy",
+    "pillow",
+    "typing-extensions",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

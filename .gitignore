@@ -1,0 +1,10 @@
+scannetpp_data/
+scannetpp_processed/
+.venv/
+__pycache__/
+.DS_Store
+processed/
+download_scannetpp*
+scene_release.py
+undistort.yml
+
