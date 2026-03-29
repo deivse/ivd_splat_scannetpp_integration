@@ -1,6 +1,7 @@
-# ScanNet++ NerfBaselines Loader
-This repository contains a script that processes the 
-ScanNet++ dataset and provides a loader for NerfBaselines
+# ScanNet++ Dataset Integration for `ivd_splat`
+This repository provides ScanNet++ dataset integration for the `ivd_splat` implementation for the paper 
+"The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting" (https://arxiv.org/abs/2603.20714).
+It contains a script that processes the ScanNet++ dataset and provides a loader for NerfBaselines
 which allows to use it with our `ivd_splat` 3DGS implementation.
 <!-- TODO: add repo URL -->
 
