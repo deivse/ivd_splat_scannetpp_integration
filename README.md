@@ -5,7 +5,7 @@ which allows to use it with our `ivd_splat` 3DGS implementation.
 <!-- TODO: add repo URL -->
 
 # Usage
-0. Obtain the official download script from ScanNet++ authors by registering and applying on https://scannetpp.mlsg.cit.tum.de/scannetpp/
+0. **Obtain the official download script from ScanNet++ authors by registering and applying on https://scannetpp.mlsg.cit.tum.de/scannetpp/**
 0. Put the following files in the root directory of this repository:
     - `download_scannetpp.py`
     - `download_scannetpp.yml`
