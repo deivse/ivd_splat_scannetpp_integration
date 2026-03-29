@@ -1,3 +1,5 @@
+# LICENSE INFORMATION
+# This file is largely based on the MIT-licensed implementation of the load_nerfstudio_dataset function from nerfbaselines.
 from pathlib import Path
 from typing import FrozenSet, Optional, Union, List
 import os
