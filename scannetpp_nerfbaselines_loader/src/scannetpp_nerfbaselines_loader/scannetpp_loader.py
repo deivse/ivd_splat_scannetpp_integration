@@ -401,12 +401,14 @@ def customized_load_nerfstudio_dataset(
             points3D_xyz=points3D_xyz,
             points3D_rgb=points3D_rgb,
             images_points3D_indices=images_points3D_indices,
-            dense_points3D_path=data_dir / "scans/pc_aligned.ply",
             metadata={
                 "color_space": "srgb",
                 "type": None,
                 "evaluation_protocol": "default",
                 "downscale_factor": downscale_factor if downscale_factor > 1 else None,
+                "dense_points3D_path": str(
+                    data_dir.absolute() / "scans/pc_aligned.ply"
+                ),
             },
         )
 
